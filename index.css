@@ -15,13 +15,13 @@ body{
     font-size: 16px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: #212121;
     background-image: url("./pexels-photo-3558803.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* max-width: 2250; */
-    min-width: 500px;
 }
 
 #header{
@@ -141,7 +141,7 @@ h1{
 
 #footer ul {
     padding: 0;
-    margin: 0;
+    margin-top: 30px;
     display: flex;
     width: 40%;
     justify-content: space-between;
@@ -195,7 +195,7 @@ i{
     }
 
     .text button{
-        margin-bottom: 13em;
+        margin-top: 6em;
     }
 
     #main{
